@@ -1,0 +1,28 @@
+button {
+    border-radius: 9999px;
+    border: none;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+}
+.twitter-black {
+    background-color: #000;
+    border: #4f606c 2px solid;
+}
+.twitter-blue {
+    background-color: rgb(30, 156, 241);
+}
+
+
+/* Hover effects */
+.twitter-blue:hover {
+    background-color: rgb(28, 138, 211);
+    transition: ease-in 400ms;
+}
+
+.twitter-black:hover {
+    background-color: rgb(5, 19, 29);
+    transition: ease-in 400ms;
+}

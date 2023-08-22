@@ -1,0 +1,22 @@
+.login-container {
+  margin: 0;
+  padding: 0;
+  background-color: #0000;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title {
+    font-size: 4.5rem;
+}
