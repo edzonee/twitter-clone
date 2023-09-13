@@ -15,6 +15,11 @@ button {
     background-color: rgb(30, 156, 241);
 }
 
+.twitter-white {
+    background-color: #fff;
+    color: #000;
+}
+
 
 /* Hover effects */
 .twitter-blue:hover {

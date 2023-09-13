@@ -1,0 +1,70 @@
+.modal {
+    display: block;
+    background-color: #000000;
+    z-index: 200;
+    width: 500px;
+    min-height: 50vh;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .modal-btn {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .modal-txt {
+    font-size: 32px;
+  }
+
+  .email, .password, .username {
+    font-size: 16px;
+    border: gray 2px solid;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    height: 41px;
+    width: 400px;
+    margin: 15px;
+  }
+
+  .email:focus, .password:focus {
+    border: #26a7de 2px solid;
+  }
+
+  .login-options{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 810px) {
+    .modal-txt {
+      font-size: 24px;
+    }
+    .modal {
+      width: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .btn {
+      font-size: 16px;
+      width: 80px;
+    }
+    .modal-txt {
+      font-size: 16px;
+    }
+    .modal {
+      width: 300px;
+    }
+  }
